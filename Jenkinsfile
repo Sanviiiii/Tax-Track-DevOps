@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'jenkins-setup', url: 'https://github.com/smr29/Tax-Track-DevOps.git'
+                git branch: 'jenkins-setup', url: 'https://github.com/Sanviiiii/Tax-Track-DevOps.git'
             }
         }
 
